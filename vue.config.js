@@ -1,8 +1,11 @@
 module.exports = {
 
-  // to production
+  // to local
+  // publicPath: '',
+
+  // to production in github
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/vue-cli-admin/'
+    ? '/easy-bussines-frontend/'  // rpository name
     : '/',
 
   // ESLint Active
